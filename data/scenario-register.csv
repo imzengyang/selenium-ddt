@@ -1,0 +1,6 @@
+username,passwd,repasswd,email,assert_result
+zack,123,123,abc@adc.com,xxxx
+helloworld,123,123,abc@adc.com,xxxx
+zack,123,123,abc@adc.com,xxxx
+zack,123,123,abc@adc.com,xxxx
+zack,123,123,abc@adc.com,xxxx
