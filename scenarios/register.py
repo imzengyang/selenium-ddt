@@ -52,7 +52,8 @@ class Register(unittest.TestCase):
             self.assertEqual(faildeText,excpetVal)
 
     def tearDown(self):
-        filename = str(time.time()) +".png"
+        # 2018-02-08_09_20_30.png
+        filename = str(time.strftime('%Y-%m-%d_%H_%M_%S')) +".png"
         self.driver.save_screenshot(os.path.join(self.screenshotDir,filename))
 
     @classmethod
